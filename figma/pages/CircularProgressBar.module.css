@@ -1,0 +1,19 @@
+/* CircularProgressBar.module.css */
+.circularProgressBar {
+    position: relative;
+    width: 140px;
+    height: 140px;
+  }
+  
+  .circularProgressBar svg{
+    transform: rotate(-90deg);
+  }
+  
+  .circularProgressBar circle {
+    fill: none;
+    stroke-width: 10;
+    stroke: #3498db; /* Change the color as needed */
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.3s ease;
+  }
+  
